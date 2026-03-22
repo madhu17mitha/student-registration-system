@@ -20,3 +20,14 @@ A dynamic web application that allows students to register and login using a sec
 2. Place project in htdocs
 3. Start Apache & MySQL
 4. Open http://localhost/student-system
+
+## Screenshots
+
+### Registration Page
+![Registration](register.png)
+
+### Login Page
+![Login](login.png)
+
+### Dashboard
+![Dashboard](dashboard.png)
