@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Login</h2>
+
+    <form action="login.php" method="POST" onsubmit="return validateLogin()">
+        <input type="email" id="loginEmail" name="email" placeholder="Email">
+        <input type="password" id="loginPassword" name="password" placeholder="Password">
+
+        <button type="submit">Login</button>
+    </form>
+
+    <p id="loginError"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
